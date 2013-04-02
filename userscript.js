@@ -30,6 +30,7 @@ censors["th3"] = "(Pico rules - don't get smart!!)";
 censors["4nd"] = "(Bloop - very tricky!!)";
 censors["th[b][/b]e"] = "(Pico still rules!!)";
 censors["(Pico rules!!)ad"] = 'thead';
+censors["pi"] = '3.14159265...';
 var target = document.getElementById("punwrap");
 var myText = target.innerHTML;
 for (censor in censors) {
