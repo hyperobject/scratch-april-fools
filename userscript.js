@@ -8,8 +8,8 @@
 
 var censors = {};
 censors["pi "] = '3.14159265...';
-censors["you"] = "pikachu";
-censors["pikachur"] = "pikachu's";
+censors["you "] = "pikachu";
+censors["your "] = "pikachu's";
 censors["Scratch Forums"] = "Scratch Forums - Still only $0.99 (USD) a post!";
 censors["the Scratch Team"] = "a bunch of fluffy kittehs";
 censors["Scratch Team"] = "a bunch of fluffy kittehs";
