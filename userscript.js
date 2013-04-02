@@ -7,7 +7,7 @@
 // ==/UserScript==
 
 var censors = {};
-censors["pi"] = '3.14159265...';
+censors["pi "] = '3.14159265...';
 censors["you"] = "pikachu";
 censors["pikachur"] = "pikachu's";
 censors["Scratch Forums"] = "Scratch Forums - Still only $0.99 (USD) a post!";
