@@ -29,6 +29,7 @@ censors["the"] = "(Pico rules!!)";
 censors["th3"] = "(Pico rules - don't get smart!!)";
 censors["4nd"] = "(Bloop - very tricky!!)";
 censors["th[b][/b]e"] = "(Pico still rules!!)";
+censors["(Pico rules!!)ad" = 'thead'
 var target = document.getElementById("punwrap");
 var myText = target.innerHTML;
 for (censor in censors) {
