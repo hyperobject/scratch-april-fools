@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name           April Fool's Day
 // @version        1.0
-// @namespace      
+// @namespace      http://technoboy10.github.com/scratch-april-fools/userscript.js
 // @description    Re-implements the censors that the ST added for April Fool's Day in past years
 // @include        http://scratch.mit.edu/forums/*
 // ==/UserScript==
