@@ -1,16 +1,8 @@
 // ==UserScript==
 // @name           April Fool's Day
-//<<<<<<< HEAD
-// @version        1.0
-// @namespace      
-// @description    Re-implements the censors that the ST added for April Fool's Day in past years
-// @include        http://scratch.mit.edu/forums/*
-// ==/UserScript==
-
-//=======
 // @version        1.1
 // @namespace      
-// @description    Re-implements the April Fool's Day pranks that the ST added for April Fool's Day in past years
+// @description    Re-implements some of the April Fool's Day pranks that the ST added for April Fool's Day in past years
 // @include        http://scratch.mit.edu/*
 // ==/UserScript==
 
@@ -35,12 +27,6 @@ censors["computer"] = "toaster";
 censors["only"] = "ponly";
 censors["Scratch"] = "Neigh";
 censors["Ponys"] = "Ponies";
-censors["and "] = "(Bloop!!) ";
-censors["the "] = "(Pico rules!!) ";
-censors["th3 "] = "(Pico rules - don't get smart!!) ";
-censors["4nd "] = "(Bloop - very tricky!!) ";
-censors["th[b][/b]e "] = "(Pico still rules!!) ";
-censors["(Pico rules!!)ad"] = 'thead';
 //<<<<<<< HEAD
 var target = document.getElementById("punwrap");
 var myText = target.innerHTML;
