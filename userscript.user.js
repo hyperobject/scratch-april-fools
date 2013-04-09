@@ -7,7 +7,6 @@
 // ==/UserScript==
 
 //Censors
-//>>>>>>> Adds the Neigh Logo
 var censors = {};
 censors["pi "] = '3.14159265... ';
 censors["you "] = "pikachu ";
@@ -27,16 +26,17 @@ censors["computer"] = "toaster";
 censors["only"] = "ponly";
 censors["Scratch"] = "Neigh";
 censors["Ponys"] = "Ponies";
-//<<<<<<< HEAD
+censors["the"] = "(Bloop!!)";
+censors["and"] = "(Pico rules!!)";
+censors["th3"] = "(Pico rules - don't get smart!!)";
+censors["4nd"] = "(Bloop - very tricky!!)";
+censors["th[b][/b]e"] = "(Pico stil rules!!)";
 var target = document.getElementById("punwrap");
 var myText = target.innerHTML;
-//=======
 var target = document.body;
 var myText = target.innerHTML;
-//Replaces the Scratch Logo with the Neigh Logo.
 myText = myText.replace('<a href="/">Scratch</a>', "<img src='http://i.imgur.com/Apomb.png' />");
 myText = myText.replace('<a href="/"></a>', "<img src='http://i.imgur.com/Apomb.png' />");
-//>>>>>>> Adds the Neigh Logo
 for (censor in censors) {
   myText = myText.replace(makeregex(censor, "g"), censors[censor]);
 }
