@@ -37,6 +37,7 @@ var myText = target.innerHTML;
 myText = myText.replace('<a href="/">Scratch</a>', "<img src='http://i.imgur.com/Apomb.png' />");
 myText = myText.replace('<a href="/"></a>', "<img src='http://i.imgur.com/Apomb.png' />");
 myText = myText.replace('<span class="scratch"></span>', "<img src='http://i.imgur.com/n32EvqX.png' />");
+myText = myText.replace('<a href="/discuss/31/">Advanced Topics</a>', "<a href='/discuss/31/'>Advanced Off-topics</a>");
 for (censor in censors) {
   myText = myText.replace(makeregex(censor, "g"), censors[censor]);
 }
