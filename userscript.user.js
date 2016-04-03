@@ -4,7 +4,9 @@
 // @namespace      
 // @description    Re-implements some of the April Fool's Day pranks that the ST added for April Fool's Day in past years
 // @include        http://scratch.mit.edu/*
+// @include        https://scratch.mit.edu/*
 // @include        http://*.scratch.mit.edu/*
+// @include        https://*.scratch.mit.edu/*
 // ==/UserScript==
 
 //Censors
